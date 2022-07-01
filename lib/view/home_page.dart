@@ -81,7 +81,7 @@ class HomePage extends StatelessWidget {
                 );
               } else {
                 return const Center(
-                  child: Text('There is an error'),
+                  child: Text('Empty movie data'),
                 );
               }
             }),
